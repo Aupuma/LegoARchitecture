@@ -2,17 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CityData : MonoBehaviour
+[CreateAssetMenu(fileName = "CityData", menuName = "ScriptableObjects/CityDataContainer", order = 1)]
+public class CityData : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string nameIdentifier;
+    public string description;
 }
