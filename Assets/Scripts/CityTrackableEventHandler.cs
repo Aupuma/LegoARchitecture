@@ -5,16 +5,14 @@ using UnityEngine;
 
 public class CityTrackableEventHandler : DefaultTrackableEventHandler
 {
-    private Animator animator;
-    public Transform cityCanvas;
 
     public Transform greyboxesParent;
     public Material occluderMaterial;
+    public GameObject bWorldInfo;
 
     protected override void Start()
     {
         base.Start();
-        animator = GetComponent<Animator>();
 
         foreach (var gb in greyboxesParent.GetComponentsInChildren<MeshRenderer>())
         {
@@ -26,8 +24,12 @@ public class CityTrackableEventHandler : DefaultTrackableEventHandler
     {
         
         base.OnTrackingFound();
-        //cityCanvas.transform.DOMoveZ(transform.localPosition.z, 1f).ChangeStartValue(transform.localPosition.z - 0.232f);
-        animator.SetTrigger("Appear");
+        GetComponentInChildren<ImageAppearance>(true).enabled = true;
+
+        foreach (var item in bWorldInfo.GetComponentsInChildren<Appearance>())
+        {
+            item.Appear();
+        }
     }
 
     protected override void OnTrackingLost()
