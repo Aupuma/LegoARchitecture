@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
   <TargetSet version="5.0" toolVersion="4.2.0">
+    <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2019-12-09 18:31:13" name="SanFranciscoLegoArq" targetId="bd3ca7059a1d48a8a99b0eab3930ed54" version="2.0" />
     <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2019-10-12 15:39:47" name="VeniceLegoArq" targetId="725322ae557e4c7caf6f655e5ea90bce" version="2.0" />
     <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2019-10-12 15:42:32" name="LondonLegoArq" targetId="1e250d0794ae45d0afca2ca71cb7245b" version="2.0" />
     <ObjectTarget bbox="0.0000 0.0000 0.0000 0.1425 0.0950 0.0950" captureAppVersion="6.5.0" lastSaved="2019-10-12 15:44:30" name="BerlinLegoArq" targetId="dd6ab80726794841aea228aad0bf7286" version="2.0" />
