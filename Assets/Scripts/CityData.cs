@@ -6,5 +6,7 @@ using UnityEngine;
 public class CityData : ScriptableObject
 {
     public string nameIdentifier;
+
+    [TextArea(15, 20)]
     public string description;
 }

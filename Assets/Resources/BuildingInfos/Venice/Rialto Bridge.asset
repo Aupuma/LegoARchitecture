@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: Rialto Bridge
+  m_EditorClassIdentifier: 
+  nameIdentifier: Rialto Bridge
+  description: "The Rialto Bridge (Ponte di Rialto) spans the Grand Canal at the heart
+    of the historic city. Built between 1588 and 1591, it replaced earlier wooden
+    bridges that had linked the districts of San Marco and San Polo since the 12th
+    century.\r\n\r\nWhen the last wooden bridge collapsed in 1524, several projects
+    were considered before the city authorities requested plans for a stone bridge
+    in 1551. The architect Antonio da Ponte competed with illustrious competitors
+    such as Michelangelo and Palladio before winning the contract.\r\n\r\nHis single
+    span design with a 24 ft. (7.5 m) arch included three walkways: two along the
+    outer edges and a wider central walkway between two rows of small shops. The entire
+    structure was built on some 12,000 wooden pilings that still support the bridge
+    over 400 years later.\r\n"

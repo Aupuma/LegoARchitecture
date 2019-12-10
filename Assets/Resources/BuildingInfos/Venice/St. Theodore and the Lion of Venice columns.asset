@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: St. Theodore and the Lion of Venice columns
+  m_EditorClassIdentifier: 
+  nameIdentifier: St. Theodore and the Lion of Venice columns
+  description: "Two granite columns stand guard at the entrance to St. Mark\u2019s
+    Square (Piazza di San Marco).\r\n\r\nOn top of the western column is a statue
+    of St. Theodore, the first patron of the city. Here he holds a spear and his foot
+    rests upon a crocodile\u2014representing the dragon he was said to have slain.
+    On the eastern column stands the winged Lion of Venice, the symbol of the second
+    patron of the city, St. Mark.\r\n\r\nBoth columns are believed to have been erected
+    in about 1268 and it is believed that the city executed convicted criminals between
+    the two columns in days gone by. To this day, superstitious Venetians avoid walking
+    between this pair of columns.\n"

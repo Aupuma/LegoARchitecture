@@ -10,10 +10,13 @@ public class CityTrackableEventHandler : DefaultTrackableEventHandler
     public Material occluderMaterial;
     public GameObject bWorldInfo;
 
+    CityManager myCityManager;
+
     protected override void Start()
     {
         base.Start();
 
+        myCityManager = GetComponent<CityManager>();
         foreach (var gb in greyboxesParent.GetComponentsInChildren<MeshRenderer>())
         {
             gb.material = occluderMaterial;
@@ -22,19 +25,17 @@ public class CityTrackableEventHandler : DefaultTrackableEventHandler
 
     protected override void OnTrackingFound()
     {
-        
         base.OnTrackingFound();
-        GetComponentInChildren<ImageAppearance>(true).enabled = true;
-
-        foreach (var item in bWorldInfo.GetComponentsInChildren<Appearance>())
-        {
-            item.Appear();
-        }
+        UIManager.instance.SetCityManager(myCityManager);
+        UIManager.instance.SetActionBarVisibility(true);
+        myCityManager.ShowData();
     }
 
     protected override void OnTrackingLost()
     {
         base.OnTrackingLost();
+        if(myCityManager!=null)
+            UIManager.instance.SetActionBarVisibility(false);
     }
 
 

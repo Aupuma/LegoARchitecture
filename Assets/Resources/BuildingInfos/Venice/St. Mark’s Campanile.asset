@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: "St. Mark\u2019s Campanile"
+  m_EditorClassIdentifier: 
+  nameIdentifier: "St. Mark\u2019s Campanile"
+  description: "As one of the tallest structures in the city, St. Mark\u2019s Campanile
+    (Campanile di San Marco) is one of Venice\u2019s most recognizable symbols. From
+    here the visitor has an incredible view of the city and lagoon as well as the
+    Italian Alps in the distance.\r\n\r\nThe 323 ft. (98.6 m) bell tower stands alone
+    in the corner of St. Mark\u2019s Square, near the front entrance to the basilica.
+    The brick structure is 39 ft. (12 m) wide on each side and 160 ft. (50 m) tall,
+    upon which sits a belfry housing five bells. A spire caps the tower with a golden
+    weather vane on top.\r\n\r\nThough the design of the Campanile is from the 16th
+    century, the tower itself was completely rebuilt in 1912 after the original one
+    collapsed in 1902. The inauguration of the new tower occurred exactly 1000 years
+    after the foundation of the original tower was laid.\r\n"

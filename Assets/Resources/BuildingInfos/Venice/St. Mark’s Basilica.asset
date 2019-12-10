@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: "St. Mark\u2019s Basilica"
+  m_EditorClassIdentifier: 
+  nameIdentifier: "St. Mark\u2019s Basilica"
+  description: "St. Mark\u2019s Basilica (Basilica di San Marco) is the most famous
+    church in Venice and the best-known example of the city\u2019s unique Italo-Byzantine
+    architecture.\r\n\r\nBuilt to house the relics of Mark the Evangelist, little
+    is known about the original church buildings, but the current structure is thought
+    to have been constructed between 1073 and 1093. The basilica is laid out in the
+    design of a Greek cross and the tallest of the five domes reach 141 ft. (43 m)
+    in height.\r\n\r\nWhile the layout of the church has remained constant over the
+    centuries, the decoration on the inside and outside of the church has changed
+    greatly. Venice\u2019s involvement in crusades and conquests saw mosaics, columns,
+    and friezes from all over the Mediterranean added to the original opulent, golden
+    mosaic\r\ninterior. Outside, the exterior brickwork was gradually covered with
+    marble cladding and carvings as Venetian vessels returned with the spoils of war
+    and trade.\r\n\r\nA symbol of the wealth and power of the Venetian Republic, St.
+    Mark\u2019s Basilica remains one of the city\u2019s most impressive landmarks
+    today.\r\n"

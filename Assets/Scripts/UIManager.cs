@@ -17,7 +17,6 @@ public class UIManager : MonoBehaviour
     }
     #endregion
 
-    public Transform cityInfoTransform;
     public TextMeshProUGUI buildingNameText;
     public TextMeshProUGUI buildingDescriptionText;
     public Button leftButton;
@@ -65,9 +64,8 @@ public class UIManager : MonoBehaviour
     {
         if(cityManager != currentCityManager)
         {
-
+            currentCityManager = cityManager;
+            SetActionBarVisibility(true);
         }
-        currentCityManager = cityManager;
-
     }
 }

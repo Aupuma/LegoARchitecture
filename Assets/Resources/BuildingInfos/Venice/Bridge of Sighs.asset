@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: Bridge of Sighs
+  m_EditorClassIdentifier: 
+  nameIdentifier: Bridge of Sighs
+  description: "Bridge of Sighs (Ponte dei Sospiri) is an enclosed bridge constructed
+    in white limestone that passes over the Rio di Palazzo, connecting the old city
+    prison to the interrogation rooms in the Doge\u2019s Palace. Designed by Antonio
+    Contino, the nephew of Antonio da Ponte who created the Rialto Bridge, the bridge
+    was completed in 1602.\r\n\r\nThe bridge\u2019s romantic name is thought to refer
+    to the sighs ofconvicts as they saw their last view of Venice before being taken
+    to their prison cells. In reality, very little of the city could be seen through
+    the stone grills covering the windows and the majority of prisoners at that time
+    were small-time criminals.\r\n"
