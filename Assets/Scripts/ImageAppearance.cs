@@ -22,10 +22,14 @@ public class ImageAppearance : Appearance
            verticalMovementDuration).From());
         mySequence.Append(imgChild.transform.DOScale(initialScale, scalingDuration).From());
         mySequence.Pause();
+
+        SetChildrenActive(false);
     }
 
     public override void Appear()
     {
+        SetChildrenActive(true);
+
         mySequence.Goto(0);
         mySequence.PlayForward();
     }

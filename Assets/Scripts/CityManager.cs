@@ -21,7 +21,6 @@ public class CityManager : MonoBehaviour
 
     public void ShowData()
     {
-        buildingWorldDataObjs[currentDataIndex].SetActive(true);
 
         currentWorldDataAnimations = buildingWorldDataObjs[currentDataIndex].GetComponentsInChildren<Appearance>();
         foreach (var item in currentWorldDataAnimations)
@@ -39,7 +38,6 @@ public class CityManager : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
-        buildingWorldDataObjs[currentDataIndex].SetActive(true);
         currentDataIndex = chosenDataIndex;
 
         ShowData();
