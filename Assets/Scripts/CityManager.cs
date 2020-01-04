@@ -21,7 +21,6 @@ public class CityManager : MonoBehaviour
 
     public void ShowData()
     {
-
         currentWorldDataAnimations = buildingWorldDataObjs[currentDataIndex].GetComponentsInChildren<Appearance>();
         foreach (var item in currentWorldDataAnimations)
         {
@@ -46,12 +45,28 @@ public class CityManager : MonoBehaviour
     public void ShowNextData()
     {
         chosenDataIndex = currentDataIndex + 1;
+
+        UIManager.instance.SetLeftButtonVisibility(true);
+
+        if (chosenDataIndex == dataContainers.Length - 1) 
+            UIManager.instance.SetRightButtonVisibility(false);
+
+        UIManager.instance.SetCurrentInfo(dataContainers[chosenDataIndex]);
+
         StartCoroutine(HideCurrentAndShowChosenData());
     }
 
     public void ShowPreviousData()
     {
         chosenDataIndex = currentDataIndex - 1;
+
+        UIManager.instance.SetRightButtonVisibility(true);
+
+        if (chosenDataIndex == 0)
+            UIManager.instance.SetLeftButtonVisibility(false);
+
+        UIManager.instance.SetCurrentInfo(dataContainers[chosenDataIndex]);
+
         StartCoroutine(HideCurrentAndShowChosenData());
     }
 }

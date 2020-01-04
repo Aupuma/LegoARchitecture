@@ -20,29 +20,48 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI buildingNameText;
     public TextMeshProUGUI buildingDescriptionText;
     public Button leftButton;
-    public Button RightButton;
+    public Button rightButton;
     private Animator animator;
 
     private CityManager currentCityManager;
+
+    private bool isInfoActive = false;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
     }
 
+    public void ToggleInfo()
+    {
+        isInfoActive = !isInfoActive;
+        animator.SetBool("InfoActive", isInfoActive);
+    }
+
+    public void SetCurrentCityManager(CityManager cityManager)
+    {
+        if (cityManager != currentCityManager)
+        {
+            currentCityManager = cityManager;
+            SetCurrentInfo(currentCityManager.dataContainers[0]);
+            SetLeftButtonVisibility(false);
+        }
+    }
+
     public void ShowPreviousBuilding()
     {
-
+        currentCityManager.ShowPreviousData();
     }
 
     public void ShowNextBuilding()
     {
-
+        currentCityManager.ShowNextData();
     }
 
-    public void SetScreenInfoVisibility(bool newVisibility)
+    public void SetCurrentInfo(CityData currentData)
     {
-        animator.SetBool("InfoActive", newVisibility);
+        buildingNameText.text = currentData.nameIdentifier;
+        buildingDescriptionText.text = currentData.description;
     }
 
     public void SetActionBarVisibility(bool newVisibility)
@@ -57,15 +76,6 @@ public class UIManager : MonoBehaviour
 
     public void SetRightButtonVisibility(bool newVisibility)
     {
-        leftButton.gameObject.SetActive(newVisibility);
-    }
-
-    public void SetCityManager(CityManager cityManager)
-    {
-        if(cityManager != currentCityManager)
-        {
-            currentCityManager = cityManager;
-            SetActionBarVisibility(true);
-        }
+        rightButton.gameObject.SetActive(newVisibility);
     }
 }

@@ -26,22 +26,16 @@ public class CityTrackableEventHandler : DefaultTrackableEventHandler
     protected override void OnTrackingFound()
     {
         base.OnTrackingFound();
-        UIManager.instance.SetCityManager(myCityManager);
+        UIManager.instance.SetCurrentCityManager(myCityManager);
         UIManager.instance.SetActionBarVisibility(true);
         myCityManager.ShowData();
     }
 
     protected override void OnTrackingLost()
     {
-        base.OnTrackingLost();
-        if(myCityManager!=null)
-            UIManager.instance.SetActionBarVisibility(false);
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
         
+        base.OnTrackingLost();
+        if(myCityManager!=null && Time.realtimeSinceStartup > 1f)
+            UIManager.instance.SetActionBarVisibility(false);
     }
 }
