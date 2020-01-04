@@ -15,13 +15,14 @@ public class CityDataAppearance : Appearance
 
     private void Start()
     {
-        nameAndCountry.localPosition = new Vector3(0f, 0f, -horizontalMovementDistance);
+        nameAndCountry.localPosition = new Vector3(0f, 0f, horizontalMovementDistance);
+        data.localPosition = new Vector3(0f, -verticalMovementDistance, 0f);
     }
 
     public override void Appear()
     {
         nameAndCountry.DOLocalMoveZ(0f, horizontalMovementDuration);
-        data.DOLocalMoveY(0f, verticalMovementDuration).ChangeStartValue(-verticalMovementDistance).SetDelay(0.5f);
+        data.DOLocalMoveY(0f, verticalMovementDuration).SetDelay(0.5f);
     }
 
     public override void Disappear()
