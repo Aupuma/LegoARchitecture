@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: Tower Bridge
+  m_EditorClassIdentifier: 
+  nameIdentifier: Tower Bridge
+  description: "It took eight years and 11,000 tons of steel to construct the 213
+    ft. (65 m) tall Tower Bridge, and when it opened in June 1894 it was regarded
+    as the most sophisticated bridge of its type in the world. \r\n\r\nThe framework
+    was clad in Cornish granite and Portland stone to protect the underlying steelwork,
+    and to give the Bridge a more pleasing appearance.\r\n\r\nBuilt with giant movable
+    roadways that lift up for passing ships, it is still considered an engineering
+    marvel and arguably remains the most recognized bridge in the world.\r"

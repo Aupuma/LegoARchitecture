@@ -307,9 +307,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imgChild: {fileID: 1050914373623385110}
   verticalMovementDuration: 1.5
-  verticalMovementDistance: 0
+  verticalMovementDistance: 150
   scalingDuration: 1
-  scalingAmount: 0
+  initialScale: 1
 --- !u!1 &1050914375591048667
 GameObject:
   m_ObjectHideFlags: 0

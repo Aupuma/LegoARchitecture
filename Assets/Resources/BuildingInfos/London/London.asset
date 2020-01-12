@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: London
+  m_EditorClassIdentifier: 
+  nameIdentifier: London
+  description: "Originally founded by the Romans over 2,000 years ago, London has
+    grown to become the cultural and economic capital of Britain and one of the world\u2019s
+    truly global cities.\r\n\r\nFamous for its finance, fashion and arts industries,
+    London is the world\u2019s most visited city and also one of its most culturally
+    diverse; more than 300 languages are spoken by its population of over 8.5 million
+    people.\r\n\r\nStanding on the River Thames, London\u2019s skyline reflects both
+    the city\u2019s diverse and colorful past and its continued ambition to embrace
+    bold, modern architectural statements.\r\n"

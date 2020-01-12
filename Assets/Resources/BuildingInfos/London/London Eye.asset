@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: London Eye
+  m_EditorClassIdentifier: 
+  nameIdentifier: London Eye
+  description: "Opened in 2000 to mark the new millennium, the London Eye is still
+    the world\u2019s largest cantilevered observation wheel. With a height of 443
+    ft. (135 m), this remarkable feat of design and engineering has become the UK\u2019s
+    most popular paid attraction, with 3.75 million visitors every year. On a clear
+    day it is possible to see up to 25 miles (40.2 km) in the distance from the top
+    of the wheel.\r\n\r\nOriginally intended as a temporary structure, the London
+    Eye is now a permanent fixture of the London skyline and an iconic symbol of modern
+    London.\r"

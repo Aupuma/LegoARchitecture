@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: The National Gallery
+  m_EditorClassIdentifier: 
+  nameIdentifier: The National Gallery
+  description: "From the very start, the aim of the National Gallery was to ensure
+    that the widest public possible could enjoy its collection. When Parliament agreed
+    to pay for the construction of a new gallery in 1831, there were lengthy discussions
+    about where the building should be located. Trafalgar Square was eventually chosen,
+    as it was considered to be at the very center of the city and therefore accessible
+    by all classes of London society.\r\n\r\nConstruction began in 1832 and the new
+    gallery was finally completed in 1838. The building has been enlarged and altered
+    many times as the National Gallery\u2019s collection grew and today holds over
+    2,300 works of art. \r\n\r\nOver six million people visit the Gallery every year
+    to enjoy works by Leonardo da Vinci, Vincent\r Van Gogh and J.M.W. Turner.\r"

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using TMPro;
 
 public class CityDataAppearance : Appearance
 {
@@ -21,6 +22,7 @@ public class CityDataAppearance : Appearance
 
     public override void Appear()
     {
+        nameAndCountry.DOLocalMoveY(1f, 0.1f);
         nameAndCountry.DOLocalMoveZ(0f, horizontalMovementDuration);
         data.DOLocalMoveY(0f, verticalMovementDuration).SetDelay(0.5f);
     }

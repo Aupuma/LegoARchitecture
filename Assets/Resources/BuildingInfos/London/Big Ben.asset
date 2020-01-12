@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: Big Ben
+  m_EditorClassIdentifier: 
+  nameIdentifier: Big Ben
+  description: "Big Ben (the Great Bell), officially known as the Elizabeth Tower
+    (formerly known as the Clock Tower and renamed in 2012 in honor of Queen Elizabeth\u2019s
+    Diamond Jubilee), has stood at the northeastern corner of the Palace of Westminster
+    for over 150 years. \r\n\r\nThe 316 ft. (96.3 m) neo-gothic styled tower is one
+    of the most recognized and photographed landmarks in London today and an integral
+    part of the city\u2019s skyline. The tower\u2019s clock mechanism is wound by
+    hand three times a week and is still as accurate today as when it was constructed
+    over 150 years ago.\r"
