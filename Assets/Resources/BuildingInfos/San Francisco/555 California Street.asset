@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: 555 California Street
+  m_EditorClassIdentifier: 
+  nameIdentifier: 555 California Street
+  description: "Located in the center of San Francisco\u2019s financial district,
+    this iconic skyscraper is the fourth tallest building in the city and the largest
+    by floor area. Until the merger in 1998 with NationsBank, it was the headquarters
+    of the Bank of America and was intended as a display of prosperity, power and
+    importance. Wurster, Bernardi and Emmons and Skidmore, Owings and Merrill designed
+    the carnelian-clad building, in consultation with architect Pietro Belluschi.\r"

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: Painted Ladies
+  m_EditorClassIdentifier: 
+  nameIdentifier: "\u201CPainted Ladies\u201D"
+  description: "Painted Ladies refers to the San Franciscan architectural phenomenon
+    of brightly painted Victorian or Edwardian\r houses, acquiring its name from a
+    1978 photo essay by writers Elizabeth Pomada and Michael Larsen. \n\nThe transformation
+    of these formerly sober-colored houses into cheerful and colorful buildings is
+    believed to have been led by a local artist who painted his own Victorian house
+    in vivid blues and greens in the 1960s, starting what was known as the \u2018colorist
+    movement\u2019, which continues to this day. In parts of the city, San Francisco\u2019s
+    Painted Ladies stand in stark contrast to the skyscrapers of the downtown area.\r\n"

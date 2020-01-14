@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: San Francisco
+  m_EditorClassIdentifier: 
+  nameIdentifier: San Francisco
+  description: "As the fourth largest city in California and the cultural, commercial
+    and financial hub of Northern California, San\r Francisco\u2019s eclectic mix
+    of architecture showcases both its geography and its rich history. \n\nIt\u2019s
+    been more than fifty years since San Francisco enjoyed its revolutionary \u201CSummer
+    of Love\u201D and, having undergone much development since then, this City by
+    the Bay offers a plethora of architectural and cultural delights to its residents
+    and visitors.\r\n"
