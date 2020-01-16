@@ -307,7 +307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imgChild: {fileID: 1050914373623385110}
   verticalMovementDuration: 1.5
-  verticalMovementDistance: 150
+  verticalMovementDistance: 200
   scalingDuration: 1
   initialScale: 1
 --- !u!1 &1050914375591048667

@@ -9,10 +9,10 @@ public class CityDataAppearance : Appearance
     public Transform nameAndCountry;
     public Transform data;
 
-    float verticalMovementDuration = 0.5f;
-    float verticalMovementDistance = 170f;
-    float horizontalMovementDuration = 0.5f;
-    float horizontalMovementDistance = 60f;
+    public float verticalMovementDuration = 0.5f;
+    public float verticalMovementDistance = 170f;
+    public float horizontalMovementDuration = 0.5f;
+    public float horizontalMovementDistance = 60f;
 
     private void Start()
     {

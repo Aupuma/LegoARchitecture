@@ -482,7 +482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6330194942fc1c942b2b6abd4e480ad8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rulerTransform: {fileID: 6165232274168099440}
+  rulerTransform: {fileID: 4282834950078364599}
   rulerText: {fileID: 6047245584434196074}
   verticalMovementDistance: 125
   verticalMovementDuration: 1
