@@ -17,11 +17,18 @@ public class UIManager : MonoBehaviour
     }
     #endregion
 
+    [Header("Content")]
     public TextMeshProUGUI buildingNameText;
     public TextMeshProUGUI buildingDescriptionText;
+
+    [Header("Action Bar")]
     public Button leftButton;
     public Button rightButton;
     private Animator animator;
+
+    [Header("Instruction elements")]
+    public TextMeshProUGUI instructionText;
+    public Image skylineIcon;
 
     private CityManager currentCityManager;
 
@@ -30,6 +37,12 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+    }
+
+    public void HideInstructions()
+    {
+        instructionText.DOFade(0f, 1f);
+        skylineIcon.DOFade(0f, 1f);
     }
 
     public void ToggleInfo()

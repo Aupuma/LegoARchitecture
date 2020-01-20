@@ -26,6 +26,7 @@ public class CityTrackableEventHandler : DefaultTrackableEventHandler
     protected override void OnTrackingFound()
     {
         base.OnTrackingFound();
+        UIManager.instance.HideInstructions();
         UIManager.instance.SetCurrentCityManager(myCityManager);
         UIManager.instance.SetActionBarVisibility(true);
         myCityManager.ShowData();
