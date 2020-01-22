@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour
     #endregion
 
     [Header("Content")]
+    public ScrollRect scrollRect;
     public TextMeshProUGUI buildingNameText;
     public TextMeshProUGUI buildingDescriptionText;
 
@@ -75,6 +76,7 @@ public class UIManager : MonoBehaviour
     {
         buildingNameText.text = currentData.nameIdentifier;
         buildingDescriptionText.text = currentData.description;
+        scrollRect.normalizedPosition = new Vector2(0, 1);
     }
 
     public void SetActionBarVisibility(bool newVisibility)
