@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: Brandenburg Gate
+  m_EditorClassIdentifier: 
+  nameIdentifier: Brandenburg Gate
+  description: "The Brandenburg Gate (Brandenburger Tor) is one of Berlin\u2019smost
+    important architectural structures and a historical  symbol all in one. The gate
+    has been at the heart of German and European history for over 200 years. \r\n\r\nCommissioned
+    by King Frederick William II of Prussia, it was built as the grandest of a series
+    of 18 city gates through which Berlin was once entered. Designed by architect
+    Carl Gotthard Langhans and constructed between 1788 and 1791, the inspiration
+    for the gate came from the entry hall of the Acropolis in Athens, Greece. \r\n\r\nThe
+    gate itself is built in sandstone  and consists of twelve Doric columns, six to
+    each side, forming five separate passageways. Atop the gate is the Quadriga\u2014a
+    chariot drawn by four horses driven by Victoria, the Roman goddess of victory.\r"

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: Reichstag
+  m_EditorClassIdentifier: 
+  nameIdentifier: Reichstag
+  description: "If there is a building in Berlin that symbolizes both the city\u2019s
+    turbulent history and modern resurgence then it is the Reichstag (Reichstagsgeb\xE4ude).
+    Completed in 1894 after ten years of construction, the parliament building witnessed
+    the birth of German democracy, the rise of National Socialism and the decay of
+    the Cold War period. \r\n\r\nSeverely damaged by a fire in 1933 and almost completely
+    destroyed during World War II, the building was partially rebuilt during the 1960s,
+    but remained largely unused.\r\n\r\n It was only with the reunification of East
+    and West Germany and the restoration of Berlin as the country\u2019s capital that
+    a complete renovation of the building took place. The renowned English architect
+    Sir Norman Foster combined the original historical fa\xE7ade with modern architectural
+    elements such as the spectacular glass dome to create a modern seat of democracy
+    for the German Bundestag (parliament)."

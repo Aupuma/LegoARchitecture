@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: Victory Column
+  m_EditorClassIdentifier: 
+  nameIdentifier: Victory Column
+  description: "Originally erected between 1864 and 1873 to commemorate famous victories
+    in wars against Denmark, Austria and France, the Victory Column (Siegess\xE4ule)
+    was extended to its current height of 220 ft. (67 m) during the 1930s. \r\n\r\nThe
+    sandstone column stands upon a base of polished red granite and is crowned with
+    a 27 ft. (8.3 m) high statue representing Victoria, the goddess of victory from
+    Roman mythology. The column\u2019s viewing platform offers visitors a panorama
+    of the city.\r"

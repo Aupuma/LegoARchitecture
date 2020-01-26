@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d308bbacb58992408c9bd4258d1c7ab, type: 3}
+  m_Name: Berlin TV Tower
+  m_EditorClassIdentifier: 
+  nameIdentifier: Berlin TV Tower
+  description: "If you want to enjoy a spectacular 360\xB0 view of Berlin\u2019s skyline
+    then take a trip up the 1,207 ft. (368 m) tall Berlin TV Tower (Fernsehturm Berlin).
+    The visibility from the rotating visitor platform in the middle of the tower\u2019s
+    sphere can reach 26 miles (42 km) on a clear day.\r\n\r\nThe tower consists of
+    an 820 ft. (250 m) concrete shaft upon which sits a seven-story sphere, crowned
+    by a 387 ft. (118 m) red and white striped antenna mast. \r\n\r\nConstructed between
+    1965 and 1969, the decision to place the tower in the center of the city was as
+    much political as technical. The East German regime needed a powerful transmitter
+    to counter the growing influence of Western TV and chose to make a bold statement
+    with a futuristic tower that would dominate the Berlin skyline. \r\n\r\nThe first
+    conceptual sketches of the tower were drawn by Hermann Henselmann. He was also
+    the architect who had been given the task of modernizing the East German section
+    of the city. He saw straight away the potential for the tower to become an iconic
+    centerpiece of his urban renewal project as well as a symbol of the technological
+    prowess of the socialist state. \r\n\r\nThe Berlin TV Tower remains Germany\u2019s
+    tallest structure and a popular destination for almost 1.2 million visitors every
+    year.\r"
