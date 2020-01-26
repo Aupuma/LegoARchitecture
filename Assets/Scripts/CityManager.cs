@@ -19,6 +19,12 @@ public class CityManager : MonoBehaviour
         }
     }
 
+    public void ResetIndex()
+    {
+        currentDataIndex = 0;
+        chosenDataIndex = 0;
+    }
+
     public void ShowData()
     {
         currentWorldDataAnimations = buildingWorldDataObjs[currentDataIndex].GetComponentsInChildren<Appearance>();
@@ -35,7 +41,7 @@ public class CityManager : MonoBehaviour
             item.Disappear();
         }
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.25f);
 
         currentDataIndex = chosenDataIndex;
 

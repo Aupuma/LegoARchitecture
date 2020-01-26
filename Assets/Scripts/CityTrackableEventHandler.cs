@@ -29,6 +29,7 @@ public class CityTrackableEventHandler : DefaultTrackableEventHandler
         UIManager.instance.HideInstructions();
         UIManager.instance.SetCurrentCityManager(myCityManager);
         UIManager.instance.SetActionBarVisibility(true);
+        myCityManager.ResetIndex();
         myCityManager.ShowData();
     }
 
