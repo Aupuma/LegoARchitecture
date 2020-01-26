@@ -34,18 +34,21 @@ public class CityManager : MonoBehaviour
         }
     }
 
-    IEnumerator HideCurrentAndShowChosenData()
+    IEnumerator ShowChosenData()
     {
-        foreach (var item in currentWorldDataAnimations)
-        {
-            item.Disappear();
-        }
-
         yield return new WaitForSeconds(1.25f);
 
         currentDataIndex = chosenDataIndex;
 
         ShowData();
+    }
+
+    public void HideCurrentData()
+    {
+        foreach (var item in currentWorldDataAnimations)
+        {
+            item.Disappear();
+        }
     }
 
     public void ShowNextData()
@@ -59,7 +62,9 @@ public class CityManager : MonoBehaviour
 
         UIManager.instance.SetCurrentInfo(dataContainers[chosenDataIndex]);
 
-        StartCoroutine(HideCurrentAndShowChosenData());
+        HideCurrentData();
+
+        StartCoroutine(ShowChosenData());
     }
 
     public void ShowPreviousData()
@@ -73,6 +78,8 @@ public class CityManager : MonoBehaviour
 
         UIManager.instance.SetCurrentInfo(dataContainers[chosenDataIndex]);
 
-        StartCoroutine(HideCurrentAndShowChosenData());
+        HideCurrentData();
+
+        StartCoroutine(ShowChosenData());
     }
 }

@@ -35,8 +35,8 @@ public class CityTrackableEventHandler : DefaultTrackableEventHandler
 
     protected override void OnTrackingLost()
     {
-        
         base.OnTrackingLost();
+        myCityManager.HideCurrentData();
         if(myCityManager!=null && Time.realtimeSinceStartup > 1f)
             UIManager.instance.SetActionBarVisibility(false);
     }
