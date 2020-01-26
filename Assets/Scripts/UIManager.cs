@@ -59,6 +59,7 @@ public class UIManager : MonoBehaviour
             currentCityManager = cityManager;
             SetCurrentInfo(currentCityManager.dataContainers[0]);
             SetLeftButtonVisibility(false);
+            SetRightButtonVisibility(true);
         }
     }
 
